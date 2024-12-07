@@ -1,0 +1,412 @@
+/* أسلوب عام للموقع */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* خلفية خفيفة */
+    color: #333; /* لون النص */
+}
+
+/* تنسيق العنوان الرئيسي */
+h1 {
+    text-align: center;
+    color: #0066cc; /* لون أزرق */
+    margin-top: 20px;
+}
+
+/* تنسيق الزر */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #005bb5; /* لون داكن عند التمرير */
+}
+
+/* إضافة تصميم للقسم */
+section {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* تنسيق الفوتر */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+button {
+    transition: background-color 0.3s ease;
+}
+/* تنسيق قائمة التنقل */
+nav {
+    background-color: #0066cc;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+section {
+    background-image: url
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: black; /* تأكد من أن النص يظهر بوضوح */
+}
+
+
+body {
+    background: linear-gradient(to right, #0066cc, #00bcd4);
+    color: white;
+}
+button {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1); /* تكبير الزر عند التمرير */
+    background-color: #005bb5;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    form {
+        width: 90%;
+    }
+}
+/* تصغير حجم النص الخاص بـ "اتصل بنا" */
+#contact h2 {
+    font-size: 16px; /* حجم النص */
+    text-align: center; /* محاذاة النص في المنتصف */
+    margin-bottom: 10px; /* مسافة أسفل العنوان */
+    color: #333; /* لون النص */
+}
+/* تنسيق حاوية المعرض */
+#image-slider {
+    text-align: center;
+    margin: 40px 0;
+}
+
+#image-slider h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* حاوية الشريط الذي يحتوي على الصور */
+.slider-container {
+    width: 100%;
+    overflow: hidden; /* لإخفاء الصور التي لا تظهر في نافذة العرض */
+    border-radius: 10px; /* لإعطاء المعرض زاوية مستديرة */
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease; /* التأثير عند التحويل */
+}
+
+.slider img {
+    width: 100%;
+    max-width: 600px; /* حجم ثابت للصور */
+    height: auto;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: #4caf50;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+section {
+    animation: fadeIn 2s;
+}
+#counter {
+    text-align: center;
+    margin: 20px 0;
+}
+.counter-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.counter-item h3 {
+    font-size: 3em;
+    color: #0044cc;
+}
+#timeline {
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-left: 4px solid #0044cc;
+    margin: 20px 0;
+}
+.timeline-item {
+    position: relative;
+    padding-left: 20px;
+}
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #0044cc;
+    border-radius: 50%;
+}
+#blog article {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+#blog a {
+    color: #0044cc;
+    text-decoration: none;
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+nav ul li a i {
+    color: #0044cc;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #4caf50;
+}
+
+nav ul li a:hover i {
+    color: #4caf50;
+}
+#teachers {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#teacher-categories {
+    margin-bottom: 20px;
+}
+
+#teacher-categories button {
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#teacher-categories button:hover {
+    background-color: #4caf50;
+}
+
+.teacher-category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.teacher {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.teacher img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.teacher p {
+    margin: 0;
+    font-size: 14px;
+}
+/* تنسيق شريط التصنيفات */
+#teacher-categories ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+}
+
+#teacher-categories ul li {
+    position: relative;
+    display: inline-block;
+}
+
+#teacher-categories ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #0044cc;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#teacher-categories ul li a:hover {
+    background-color: #4caf50;
+}
+
+/* تنسيق الأقسام التي تظهر عند التمرير */
+.teacher-category {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none;
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 10;
+    width: 300px;
+}
+
+/* عرض القسم عند التمرير */
+#teacher-categories ul li:hover .teacher-category {
+    display: block;
+}
+
+/* تنسيق المعلمين */
+.teacher {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.teacher img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #0044cc;
+}
+
+.teacher p {
+    margin: 0;
+    font-size: 14px;
+}
+.teacher-category {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
